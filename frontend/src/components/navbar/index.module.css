@@ -1,0 +1,42 @@
+.nav {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+     background-color: #F3F3F3;
+}
+.subnav {
+	display: flex;
+	gap: 5px;
+}
+.name:hover{
+    cursor: pointer;
+}
+.description {
+	color: rgba(20, 236, 49, 0.815);
+}
+.list {
+	list-style-type: none;
+	
+}
+.listid:hover {
+	cursor: pointer;
+	color: red;
+}
+.list li {
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+}
+
+.list li:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: -5px;
+	transform: translateY(-50%);
+	height: 15px;
+	width: 1px;
+	background-color: rgba(20, 236, 49, 0.815);
+}
