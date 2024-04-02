@@ -1,0 +1,40 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circle {
+    width: 100px; /* Adjust size of the circle */
+    height: 100px; /* Adjust size of the circle */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #ff5733; /* Set background color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 10px; /* Adjust margin between circles */
+    color: white; /* Set text color */
+}
+
+.circl {
+    width: 100px; /* Adjust size of the circle */
+    height: 100px; /* Adjust size of the circle */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #33aaff; /* Set background color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 10px; /* Adjust margin between circles */
+    color: white; /* Set text color */
+}
+
+.circ {
+    width: 100px; /* Adjust size of the circle */
+    height: 100px; /* Adjust size of the circle */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #33ff99; /* Set background color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: white; /* Set text color */
+}

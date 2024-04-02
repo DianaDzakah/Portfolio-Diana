@@ -1,0 +1,13 @@
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 3fr ;
+    padding: 50px;
+    background-color: #F3F3F3;
+
+}
+.hr{
+    border-top: 7px;
+}
+.image{
+    width: 50px;
+}
