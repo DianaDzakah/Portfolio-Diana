@@ -1,3 +1,18 @@
 .image{
-    width: 400px;
+    width: 500px;
+    border-radius: 50%;
+margin-top: 200px;}
+.about{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    background-color: #F3F3F3;
+    padding: 50px;
+    padding-top: 50px;
+}
+.body{
+    text-align: left;
+    padding: 100px;
+}
+.hello{
+    font-size:100px;
 }
