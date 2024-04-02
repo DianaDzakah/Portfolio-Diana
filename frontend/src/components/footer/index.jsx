@@ -11,7 +11,6 @@ const Footer = () => {
     <div>Email<br/>dianadzakah1@gmail.com</div>
     <div>Follow Me<br/><img className={styles.image} src={github} alt='github'></img></div>
     <div>© 2024 By Diana Dzakah</div>
-
     </footer>
     
     </>

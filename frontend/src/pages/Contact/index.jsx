@@ -5,11 +5,12 @@ import Footer from '../../components/footer'
 const Contact = () => {
   return (
     <>
-    <Navbar/>
-    <p>contact</p>
-    <Footer/>
+      <Navbar/>
+      <p>contact goes here</p>
+      <Footer/>
+
     </>
   )
 }
 
-export default ContCt
+export default Contact
