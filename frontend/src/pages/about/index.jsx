@@ -7,8 +7,8 @@ import styles from "./index.module.css"
 const About = () => {
   return (
     <>
-    <div>
       <Navbar />
+      
       <div>
         <img className={styles.image} src={portfolio} alt='img' />
       </div>
@@ -20,7 +20,6 @@ const About = () => {
       </div>
       <div><Button/></div>
       <div><Footer /></div>
-    </div>
     </>
   );
 }
