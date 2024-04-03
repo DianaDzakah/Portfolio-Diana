@@ -1,3 +1,33 @@
 .image{
     width: 400px;
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+   background-color:  #F3F3F3;
+   height: 900px;
+
+}
+.body{
+    padding: 150px;
+    
+}
+.hello{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h3{
+    font-size: 20px;
+}
+.subbody{
+    display: grid;
+    grid-template-rows: 4fr 2fr;
+}
+.button{
+    margin-left: 150px;
+   margin-top: -100px;
 }

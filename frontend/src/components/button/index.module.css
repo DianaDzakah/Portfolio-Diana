@@ -2,39 +2,63 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 }
 
+
 .circle {
-    width: 100px; /* Adjust size of the circle */
-    height: 100px; /* Adjust size of the circle */
+    width: 150px; /* Adjust size of the circle */
+    height: 150px; /* Adjust size of the circle */
+    border: solid 1px black;
     border-radius: 50%; /* Make it a circle */
-    background-color: #ff5733; /* Set background color */
+    background-color: #EEA302; /* Set background color */
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin-bottom: 10px; /* Adjust margin between circles */
     color: rgb(10, 0, 0); /* Set text color */
 }
+.circle:hover{
+    cursor: pointer;
+    background-color: white;
+
+}
 
 .circl {
-    width: 100px; /* Adjust size of the circle */
-    height: 100px; /* Adjust size of the circle */
+    width: 150px; /* Adjust size of the circle */
+    height: 150px; /* Adjust size of the circle */
     border-radius: 50%; /* Make it a circle */
-    background-color: #33aaff; /* Set background color */
+    background-color: #ff4133; /* Set background color */
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin-bottom: 10px; /* Adjust margin between circles */
-    color: white; /* Set text color */
+    color: rgb(10, 1, 1); /* Set text color */
+    border: solid 1px black;
+
+}
+.circl:hover{
+    cursor: pointer;
+    background-color: white;
+
+
 }
 
 .circ {
-    width: 100px; /* Adjust size of the circle */
-    height: 100px; /* Adjust size of the circle */
+    width: 150px; /* Adjust size of the circle */
+    height: 150px; /* Adjust size of the circle */
     border-radius: 50%; /* Make it a circle */
     background-color: #33ff99; /* Set background color */
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    color: white; /* Set text color */
+    color: rgb(10, 1, 1); /* Set text color */
+    border: solid 1px black;
+
+}
+.circ:hover{
+    cursor: pointer;
+    background-color: white;
+
+
 }
