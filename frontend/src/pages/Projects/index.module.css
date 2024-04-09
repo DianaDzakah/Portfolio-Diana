@@ -1,0 +1,9 @@
+.flexboxProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.miniflex{
+    display:flex ;
+    align-items: center;
+}
