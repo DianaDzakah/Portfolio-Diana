@@ -1,0 +1,26 @@
+.resume{
+    width: 100%;
+    height: fit-content;
+    color: rgb(241, 54, 123);
+    text-align: center;
+    background-color: rgb(209, 219, 72);
+    margin-top: -20px;
+}
+.linkedin{
+font-size: 100px;
+}
+.GitHub{
+    font-size: 100px;
+
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.socials:hover{
+    cursor: pointer;
+}
+.resume{
+    font-size: 100px;
+}

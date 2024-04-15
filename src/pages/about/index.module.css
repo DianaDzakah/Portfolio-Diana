@@ -36,3 +36,11 @@ background-color: black;
     border: 20px solid rgb(233, 24, 94);
 
 }
+.title{
+    font-size: 50px;
+    color: chocolate;
+}
+.story{
+    font-size: 20px;
+    padding: 30px;
+}
