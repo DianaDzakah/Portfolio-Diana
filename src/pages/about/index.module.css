@@ -1,34 +1,38 @@
+.body1{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+.navbar{
+padding: 10px;
+background-color: black;
+}
+.port{
+    color: antiquewhite;
+    text-align: 40px;
+}
+.nav{
+     display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 25px;
+    color: rgb(233, 24, 94);
+}
+.About{
+    color: azure;
+    text-align: center;
+}
+.intro{
+    font-size: 100px;
+}
+.des{
+    font-size: 30px;
+    font-style: italic;
+    padding: 50px;
+}
 .image{
-    width: 400px;
+    width: 500px;
     border-radius: 50%;
-    margin-top: 200px;
-    margin-left: 100px;
-}
-.about{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 20px;
-   background-color:  #F3F3F3;
-   height: 900px;
-   width: 100%;
+    border: 20px solid rgb(233, 24, 94);
 
-}
-.body{
-    padding: 150px;
-    
-}
-.hello{
-    font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.h3{
-    font-size: 20px;
-}
-.subbody{
-    display: grid;
-    grid-template-rows: 4fr 2fr;
-}
-.button{
-    margin-left: 150px;
-   margin-top: -100px;
 }
